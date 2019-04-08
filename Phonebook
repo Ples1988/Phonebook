@@ -1,0 +1,48 @@
+access_organisation = input(str('Please enter the name of organistion'))
+access_name = input(str('Please enter first and last name'))
+phonebook = {1: 'Andrew Price - +13472105630', 2: 'Ashley Smith - +16464610414', 3: 'Bryan Cox - +17085781311',
+             4: 'Don Jones - +19075143511', 5: 'Jonnathan Wilcox - +13476984290', 6: 'Kevin Pisle - +16461234579',
+             7: 'Nickolas Randall - +19174567811', 8: 'Peter Green - +16145897511', 9: 'Tony Stark - +15417896531',
+             10: 'William Clark - +16465671311'}
+for a in phonebook:
+    if access_name == 'Andrew Price':
+        print(phonebook[1])
+        break
+    elif access_name == 'Ashley Smith':
+        print(phonebook[2])
+        break
+    elif access_name == 'Brian Cox':
+        print(phonebook[3])
+        break
+    elif access_name == 'Don Jones':
+        print(phonebook[4])
+        break
+    elif access_name == 'Jonnathan Wilcox':
+        print(phonebook[5])
+        break
+    elif access_name == 'Kevin Pisle':
+        print(phonebook[6])
+        break
+    elif access_name == 'Nickolas Randall':
+        print(phonebook[7])
+        break
+    elif access_name == 'Peter Green':
+        print(phonebook[8])
+        break
+    elif access_name == 'Tony Stark':
+        print(phonebook[9])
+        break
+    elif access_name == 'William Clark':
+        print(phonebook[10])
+        break
+
+    else:
+        print('Person is not found')
+        break
+for b in phonebook:
+    if access_organisation == 'Cashscan':
+        print(phonebook.values())
+        break
+    else:
+        print('Name of organisation is not found')
+        break
